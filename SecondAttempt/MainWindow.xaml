@@ -12,9 +12,11 @@
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
             <telerik:RadListBox Name="RadListBox" Grid.Row="0"/>
             <telerik:RadButton Content="Click Me" Click="ButtonBase_OnClick" Grid.Row="1"/>
+            <telerik:RadButton Content="Connect" Click="Connect_OnClick" Grid.Row="2"/>
         </Grid>
     </Grid>
 </Window>
