@@ -26,9 +26,6 @@ namespace SecondAttempt
             var passwordHash = Convert.ToBase64String(_md5.ComputeHash(Encoding.UTF8.GetBytes("wasabionasmallplate" + Salt)));
 
             MessageBox.Show("passwordHash");
-
-            _md5.
-
         }
 
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
