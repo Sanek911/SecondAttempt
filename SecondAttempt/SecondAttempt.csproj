@@ -72,15 +72,15 @@
     </Reference>
     <Reference Include="Telerik.Windows.Controls, Version=2017.1.117.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Telerik.Windows.Controls.dll</HintPath>
+      <HintPath>..\Telerik.Windows.Controls.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.Controls.GridView, Version=2017.1.117.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Telerik.Windows.Controls.GridView.dll</HintPath>
+      <HintPath>..\Telerik.Windows.Controls.GridView.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Windows.Controls.Input, Version=2017.1.117.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Telerik.Windows.Controls.Input.dll</HintPath>
+      <HintPath>..\Telerik.Windows.Controls.Input.dll</HintPath>
     </Reference>
     <Reference Include="Validation, Version=2.2.0.0, Culture=neutral, PublicKeyToken=2fc06f0d701809a7, processorArchitecture=MSIL">
       <HintPath>..\packages\Validation.2.2.8\lib\dotnet\Validation.dll</HintPath>
@@ -126,7 +126,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -151,7 +150,6 @@
       <Link>MongoDb\Bin\mongo.conf</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
@@ -159,7 +157,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
