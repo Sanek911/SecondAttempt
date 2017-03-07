@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data;
+using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 using System.Windows;
@@ -14,18 +15,9 @@ namespace SecondAttempt
     {
         private int _count;
 
-        private MD5 _md5;
-
-        internal const string Salt = "EDFD68E2-F74F-4FB0-B541-4572561F5FA7";
-
         public MainWindow()
         {
             InitializeComponent();
-
-            _md5 = MD5.Create();
-            var passwordHash = Convert.ToBase64String(_md5.ComputeHash(Encoding.UTF8.GetBytes("wasabionasmallplate" + Salt)));
-
-            MessageBox.Show("passwordHash");
         }
 
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
