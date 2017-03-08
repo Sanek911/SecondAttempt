@@ -4,7 +4,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 using System.Windows;
-using MySql.Data.MySqlClient;
+//using MySql.Data.MySqlClient;
 
 namespace SecondAttempt
 {
@@ -28,15 +28,15 @@ namespace SecondAttempt
         private void Connect_OnClick(object sender, RoutedEventArgs e)
         {
             var connectionString = "server = 127.0.0.1; user id = root; password = userx";
-            using (var mySQLConnecton = new MySqlConnection())
-            {
-                if (mySQLConnecton.State == ConnectionState.Closed)
-                {
-                    mySQLConnecton.Open();
-                }
+            //using (var mySQLConnecton = new MySqlConnection())
+            //{
+            //    if (mySQLConnecton.State == ConnectionState.Closed)
+            //    {
+            //        mySQLConnecton.Open();
+            //    }
 
-                RadListBox.Items.Add("Connected");
-            }
+            //    RadListBox.Items.Add("Connected");
+            //}
         }
     }
 }
