@@ -1,9 +1,5 @@
-﻿using System;
-using System.Data;
-using System.IO;
-using System.Security.Cryptography;
-using System.Text;
-using System.Windows;
+﻿using System.Windows;
+
 //using MySql.Data.MySqlClient;
 
 namespace SecondAttempt
@@ -13,12 +9,22 @@ namespace SecondAttempt
     /// </summary>
     public partial class MainWindow : Window
     {
+        #region Fields
+
         private int _count;
+
+        #endregion
+
+        #region Constructors
 
         public MainWindow()
         {
             InitializeComponent();
         }
+
+        #endregion
+
+        #region Methods
 
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
@@ -38,5 +44,7 @@ namespace SecondAttempt
             //    RadListBox.Items.Add("Connected");
             //}
         }
+
+        #endregion
     }
 }
